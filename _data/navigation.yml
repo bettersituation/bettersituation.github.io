@@ -1,0 +1,14 @@
+- name: Home
+  link: /
+- name: Deep learning
+  link: /topics/deep-learning.html
+- name: Machine learning
+  link: /topics/machine-learning.html
+- name: Finance
+  link: /topics/finance.html
+- name: Computer Science
+  link: /topics/computer-science.html
+- name: Miscs
+  link: /topics/miscs.html
+- name: My repos
+  link: https://github.com/bettersituation?tab=repositories
