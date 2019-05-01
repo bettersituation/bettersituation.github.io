@@ -3,7 +3,7 @@ layout: post
 topic: miscs
 title: 마코브, 체비셰프 부등식
 ---
-## 마코브 부등식
+### 마코브 부등식
 
 $$
 \text{Assume u is non-negative and c > 0.} \\
@@ -19,7 +19,7 @@ or\; equivalently, \\
 P(u(x) \ge c) \le \frac{E(u(X))}{c} \; holds.
 $$
 
-## 체비셰프 부등식
+### 체비셰프 부등식
 $$
 \text{Assume u is a mean of distribution X and s is a standard deviation.} \\
 Let\; s \neq 0\; and\; \kappa > 0\\
