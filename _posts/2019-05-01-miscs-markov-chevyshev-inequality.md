@@ -4,6 +4,7 @@ topic: miscs
 title: 마코브, 체비셰프 부등식
 ---
 #### 1. 마코브 부등식
+<br>
 $$
 \text{Assume u is non-negative and c > 0.} \\
 then, \; P(u(x) \ge c) \le \frac{E(u(X))}{c} \; holds. \\
@@ -18,9 +19,10 @@ or\; equivalently, \\
 P(u(x) \ge c) \le \frac{E(u(X))}{c} \; holds.
 $$
 
-<br><br><br>
+<br><br>
 
 #### 2. 체비셰프 부등식
+<br>
 $$
 \text{Assume u is a mean of distribution X and s is a standard deviation.} \\
 Let\; s \neq 0\; and\; \kappa > 0\\
