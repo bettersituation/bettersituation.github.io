@@ -1,11 +1,7 @@
 ---
 layout: default
 ---
-<<<<<<< HEAD
 <h2>{{ page.topic | capitalize }}</h2>
-=======
-<h2>{{ page.topic }}</h2>
->>>>>>> c4d5c2dca249d4b9f22a0caf9e25b70e15770f53
 <ul>
   {% assign filtered_posts = site.posts | where: 'topic', page.topic %}
   {% for post in filtered_posts %}
