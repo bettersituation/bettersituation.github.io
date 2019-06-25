@@ -4,14 +4,15 @@ topic: deep-learning
 title: 강화학습 기초 시리즈 09
 ---
 
-####벨만 등식과 벨만 최적 등식  
+<h4>벨만 등식과 벨만 최적 등식</h4>
+<br>
 
 **1. 벨만 등식**  
-벨만 등식이란 다음 등식을 의미한다.  
+벨만 등식이란 다음 등식을 뜻한다.  
 
 $$
 v_{\pi}(s) = E(G_t|S_t=s) = \int \pi(a|s) \cdot \left(\int p(s',r|s,a) \cdot  \left(r + \gamma v_{\pi}(s')\right) \right)
-$$
+$$  
 <br>
 
 **2. Optimal policy**  
@@ -30,12 +31,12 @@ Value of state는 optimal policy에 대하여 다음이 성립한다. 이를 벨
 
 $$
 v_{\pi_*}(s) = \underset{a}{max} \; q_{\pi_*}(s, a) = \underset{a}{max} \int p(s',r|s,a) \cdot (r + \gamma v_{\pi_*}(s')) = \underset{a}{max} \left[r(s,a) + \gamma \int p(s'|s,a) \cdot v_{\pi_*}(s') \right]
-$$
+$$  
 <br>
 
-**4. 벨만 최적 등식 q**
+**4. 벨만 최적 등식 q**  
 q는 optimal policy에 대하여 다음이 성립한다. 이 역시 벨만 최적 등식이라고 표현한다.
 
 $$
 q_{\pi_*}(s,a) = E(G_t|S_t=s, A_t=a) = \int p(s',r|s,a) \cdot (r + \gamma v_{\pi_*}(s')) = r(s,a) + \gamma \int p(s'|s,a) \cdot \underset{a}{max} \; q_{\pi_*}(s', a)
-$$
+$$  

@@ -23,10 +23,10 @@ policy(또는 preference)를 따라 action을 취했을 때 기대되는 보상 
 
 $$
 v_{\pi}(s) = E(G_t|S_t=s)
-$$
+$$  
 <br>
 
-**3. Q**
+**3. Q**  
 Q란 주어진 state에서 Agent가 특정 action을 취했을 때에 기대되는 보상 합계이다.  
 
 $$
