@@ -34,4 +34,6 @@ GIPS allow clients to more easily compare investment performance.
 **Recommended verification**  
 1. Verification applies to the entire firm's performance mesurement practices and methods, not a selected composite.  
 2. Verified firms should include the following disclosure words.  
-"[verified firm] has been verified for the periods [dates] by [verifier]. A copy of the verification report is available upon request."  
+```
+[verified firm] has been verified for the periods [dates] by [verifier]. A copy of the verification report is available upon request.
+```  
