@@ -1,6 +1,6 @@
 ---
 layout: post
-topic: deep learning
+topic: deep-learning
 title: 주관적인 논문리뷰 - Exploring Randomly Wired Neural Networks for Image Recognition - FAIR
 ---
 [실제 논문은 여기로](https://arxiv.org/abs/1904.01569)
