@@ -1,7 +1,7 @@
 ---
 layout: post
 topic: finance
-title: cfa lv1 econ reading 02_01_Summary_table
+title: cfa lv1 econ reading 02 01 Summary table
 ---
 
 <h4>The firm and market structures: Summary table</h4>
