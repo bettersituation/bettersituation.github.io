@@ -44,9 +44,9 @@ Relu는 0이하의 값에서 gradient가 전달되지 않는 dying relu라는 �
 이러한 차이는 더 깊게 layer를 쌓았을 때 도드라진다.  
 
 또한 training epoch마다 +/- 부호가 바뀌는 비율을 보면,  
-maxout은 + &rightarrow; - 로 변하는 비율과 - &rightarrow; + 로 변하는 비율에서 큰 차이가 없다.  
+maxout은 + &rarr; - 로 변하는 비율과 - &rarr; + 로 변하는 비율에서 큰 차이가 없다.  
 
-반면 relu는 + &rightarrow; 0 으로 변하는 비율이 0 &rightarrow; + 로 변하는 비율보다 월등히 크다.  
+반면 relu는 + &rarr; 0 으로 변하는 비율이 0 &rarr; + 로 변하는 비율보다 월등히 크다.  
 즉, 어떻게 보면 학습이 균형적으로 이뤄지지 않는다고 볼 수 있다.  
 또한 0이 많아질수록 dying relu 문제가 도드라질 것이다.  
 
