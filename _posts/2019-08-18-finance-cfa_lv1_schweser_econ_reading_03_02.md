@@ -24,8 +24,8 @@ title: cfa lv1 econ reading 03 02 IS, LM, AD, AS
 
 **2. IS curve (invesetment saving curve)**  
 
-(1) Locus of points where ___equilibrium between demand and supply in real(non-financial) market___ achieved  
-(2) Each point refers aggregated invested or saved moeny
+(1) Locus of points where ___equilibrium between demand and supply in real(non-financial) market___  
+(2) Each point refers aggregated invested or saved moeny  
 (3) Downward sloping  
 
 
@@ -35,7 +35,7 @@ title: cfa lv1 econ reading 03 02 IS, LM, AD, AS
 
 **3. LM curve (liquidity money curve)**  
 
-(1) Locus of points where ___equilibrium between liquidity preference(demand) and supply(determined by (central) banks) in financial market___ achieved  
+(1) Locus of points where ___equilibrium between liquidity preference(demand) and supply(determined by (central) banks) in financial market___  
 (2) Each point refers liquid moeny  
 (3) Upward sloping  
 (4) Assume M/P is fixed  
@@ -57,7 +57,7 @@ title: cfa lv1 econ reading 03 02 IS, LM, AD, AS
 
 (1) At each level of M/P, equilibrium point of real market and money market moves  
 (2) Then let's ___assume M is constant P is a variable___  
-(3) AD curve is a lotus of points where equilibrium of real market and money market achieved as assuming M is fixed and P is a variable  
+(3) AD curve is a lotus of points where equilibrium of real market and money market while assuming M is fixed and P is a variable  
 
 ![](/assets/img/finance_cfa_econ_reading_03_02/figure4.png)  
 
@@ -66,9 +66,9 @@ title: cfa lv1 econ reading 03 02 IS, LM, AD, AS
 **6. AS (aggregate supply) curve**  
 
 (1) It represents the amount of output that firms will produce at different price levels  
-(2) ___LRAS___: Long run aggregate supply  
-(3) ___SRAS___: Short run aggregate supply  
-(4) ___VSRAS___: Very short run aggregate supply  
+(2) ___LRAS___ : Long run aggregate supply  
+(3) ___SRAS___ : Short run aggregate supply  
+(4) ___VSRAS___ : Very short run aggregate supply  
 (5) ___Potential GDP___ or ___full-employment GDP___ refers to the level of output at LRAS  
 
 ![](/assets/img/finance_cfa_econ_reading_03_02/figure5.png)  
@@ -77,7 +77,7 @@ title: cfa lv1 econ reading 03 02 IS, LM, AD, AS
 
 **7. Factors to move AD curve**  
 
-(1) GDP = C + I + G + (X - M)
+(1) GDP = C + I + G + (X - M)  
 (2) Increase(decrease) in consumers' wealth (affecting C)  
 (3) Business expectations (affecting I)  
 (4) Consumer expectations of future incode (affecting C)  

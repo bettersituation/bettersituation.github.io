@@ -19,10 +19,10 @@ title: cfa lv1 econ reading 03 01 GDP
 
 **1-2. types of GDP**  
 
-- ___Nominal GDP___: sum of (price of good_i in year_t * quantity of good_i in year_t)  
-- ___Real GDP___: sum of (price of good_i in base year) * quantity of good_i in year_t)  
-- ___GDP deflator___: Nominal GDP / Real GDP  
-- ___Per-capita real GDP___: real GDP / population (often used as a measure of the economic well-being of a country's residents)  
+- ___Nominal GDP___ : sum of (price of good_i in year_t * quantity of good_i in year_t)  
+- ___Real GDP___ : sum of (price of good_i in base year) * quantity of good_i in year_t)  
+- ___GDP deflator___ : Nominal GDP / Real GDP  
+- ___Per-capita real GDP___ : real GDP / population (often used as a measure of the economic well-being of a country's residents)  
 
 <br>
 

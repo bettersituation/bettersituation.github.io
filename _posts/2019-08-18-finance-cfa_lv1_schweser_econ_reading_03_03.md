@@ -48,6 +48,8 @@ title: cfa lv1 econ reading 03 03 Equilibrium and Fluctuations
 
 <br>
 
+**6. Summary table**  
+
 |Types of change|Real GDP|Unemployment|Price level|
 |---|---|---|---|
 |Increase in AD<br>(Inflation)|Increase|Decrease|Increase|
@@ -57,6 +59,6 @@ title: cfa lv1 econ reading 03 03 Equilibrium and Fluctuations
 
 <br>
 
-**6. Simultaneous change of AD and SRAS**  
+**7. Simultaneous change of AD and SRAS**  
 
 ![](/assets/img/finance_cfa_econ_reading_03_03/figure6.png)  
