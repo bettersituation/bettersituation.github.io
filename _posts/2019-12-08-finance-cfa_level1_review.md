@@ -1,7 +1,7 @@
 ---
 layout: post
 topic: finance
-title: Dec 19, cfa level1 리뷰
+title: Dec 19 cfa level1 리뷰
 ---
 
 2019년 12월 7일, 온전히 준비했던 것은 아니지만 1년 동안 준비해왔던 CFA level1 시험을 치뤘다.  
