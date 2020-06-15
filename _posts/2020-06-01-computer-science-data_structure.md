@@ -18,3 +18,16 @@ Geeks For Geeks 등의 사이트도 차고 넘치니 그 때 자료구조에 대
 프로젝트 주소는 [https://github.com/bettersituation/IntroductionToDataStructure](https://github.com/bettersituation/IntroductionToDataStructure) 이다.  
 
 목표는 6월 내 완료이다.  
+
+---
+
+#### Sorting 을 마치고.  
+
+이전까지는 자료구조에 대해 배우는 챕터였다면 Sorting 은 자료구조를 활용하는 느낌이 강했다.  
+그래서 나름대로는 중간 이정표 같은 느낌이 들기도 했다.  
+배열 정렬을 위해서 Queue, Heap 등을 사용하는데 이런 것이 자료구조를 잘 알고 사용해야 하는 이유구나 싶었다.  
+또한 재귀 함수에 대해서도 생각해보게 됐다.  
+재귀 함수는 참 강력한 함수이다. 문제를 재귀적으로 해결함으로써 보다 직관적으로 문제를 해결할 수 있다.  
+그러나 문제는 우리의 직관은 반쪽짜리 직관이라는 것이다.  
+경계값에 대한 처리라든지 주어진 상황에서 취해야 할 행동 등을 제대로 정의하는 것은 어려웠다.  
+ 
