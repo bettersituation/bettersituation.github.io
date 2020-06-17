@@ -4,7 +4,7 @@ topic: computer-science
 title: PEP8
 ---
 
-PEP8 은 파이썬 코딩 스타일 가이드이다.  
+PEP8 은 파이썬 코딩 스타일 가이드이다. [(https://www.python.org/dev/peps/pep-0008/)](https://www.python.org/dev/peps/pep-0008/)  
 협업을 위해서 등 여러 이유로 코딩 스타일을 통일하는 것이 좋을 것이다.  
 그렇기에 pep8 를 읽고 내용을 간단하게 요약해본다.  
 
