@@ -295,3 +295,59 @@ h_i(x) = h(x) + if(x) mod m
 - 서로 다른 두 해시 함수를 갖고 해시값을 계산한다. 1차 군집과 2차 군집 현상이 발생하지 않는다.
 - 권장되는 방법은 h(x) = x mod m 으로 잡고 f(x) = 1 + (x mod m') 으로 정하는 것이다. 이 때 m' 은 m 보다 조금 작은 소수이다.
 ```
+
+---
+
+### 7. 상호배타적 집합의 처리
+
+상호배타적 집합의 관리를 위해 아래 세 가지 연산이 필요하다.
+
+1. make set(x): 원소 x 로 이루어진 집합을 만든다.
+2. find set(x): 원소 x 가 포함된 집합을 찾는다.
+3. union(x, y): 원소 x 를 가진 집합과 원소 y 를 가진 집합을 하나로 합친다.
+
+위 상호배타적 집합을 구현하기 위해 아래처럼 연결리스트를 활용할 수 있다.  
+일반적인 이중연결리스트와 다른 점은 head 가 대표 원소를 가리킨다는 점이다.  
+![](/assets/img/computer_science_algorithms/disjoint_set_linked_list.png)  
+
+- make set, find set 의 수행 시간은 O(1) 인 반면, Union 은 특정 set 의 head 를 모두 바꿔야 하므로 O(1) 을 초과한다.
+- 두 집합을 union 할 때 원소의 개수가 적은 집합의 head 를 변경하는 것이 비용이 적다. 이렇게 개수를 고려하여 union 하는 것을 **Weighted Union** 이라고 한다.
+- 아래와 같은 정리가 성립한다.
+
+```
+정리) 연결 리스트를 이용해 표현되는 배타적 집합에서 Weighted Union 을 사용할 경우,
+m 번의 make set, find set, union 연산 중 make set 연산이 n 번 발생한다면 이들의 총 수행시간은
+O(m + n*log n) 이다.
+
+증명) make set 과 find set 은 O(1) 이므로 이 둘에 의한 연산량은 O(m) 이다.
+make set 연산이 n 번 발생하였으므로 원소의 개수는 n 개이고,
+Weighted Union 을 사용하므로 모든 원소가 union 되었다는 가정 하에 최대의 연산량을 역으로 계산하면
+O(n*log n) 임을 알 수 있다.
+따라서 O(m + n*log n) 이 성립한다.
+```
+
+위 상호배타적 집합을 구현하기 위해 아래처럼 트리 구조로 집합을 표현할 수도 있다.  
+일반적인 트리와 다른 점은 자식 노드를 갖는 것이 아니라 부모 노드를 갖는다는 것이다.  
+![](/assets/img/computer_science_algorithms/disjoint_set_tree.png)  
+
+- make set 은 O(1) 의 연산량이 필요하다.
+- union 을 효율적으로 하기 위해 tree 의 rank 를 활용할 수 있다. rank(= depth) 가 낮은 트리가 높은 트리의 자식 노드로 귀속한다. 이를 **Rank Union** 이라고 한다.
+- find set 을 할 때 **경로 압축** 을 사용할 수 있다. 경로 압축이란 루트 노드로 향하는 과정에서 거쳤던 노드들을 모두 루트 노드의 자식 노드로 귀속시키는 방법이다.
+- 위 과정을 따라 union 과 find set 을 구현하면 아래와 같은 정리를 만족한다.  
+
+```
+정리1) rank 를 이용한 union 을 하면 랭크가 k 인 노드를 대표로 하는 집합의 원소 수는 최소 2^k 개이다.
+
+정리2) rank 를 이용한 union 을 하면 원소 수가 n 인 집합에서 임의의 노드의 랭크는 O(log n) 이다.
+
+정리3) 트리를 이용해 표현되는 배타적 집합에서 Rank Union 을 사용할 경우,
+m 번의 make set, find set, union 연산 중 make set 연산이 n 번 발생한다면 이들의 총 수행시간은
+O(m * log n) 이다.
+
+정리4) 트리를 이용해 표현되는 배타적 집합에서 Rank Union 과 경로압축을 사용한다면,
+m 번의 make set, find set, union 연산 중 make set 연산이 n 번 발생한다면 이들의 총 수행시간은
+O(m log^* n) 이다.
+
+** log^* n 이란 f(x) = log(x) 라고 했을 때 f^k(x) < 1 이 성립하는 최초의 k 를 말한다.
+이는 매우 효율적인 것으로 log^* 2^65536 = 5 가 성립할 정도이다.
+```
