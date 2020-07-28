@@ -74,9 +74,8 @@ w_p = \underset{|w|=1}{argmax} \; ||Xw||^2 \; where \; w \perp \; w_i \; for \; 
 Then \; we \; can \; define \; T \; by \; letting
 \; W = 
 \begin{bmatrix}
-w_1 \\
-\vdots \\
-w_p \end{bmatrix} \; and \; T = XW \\
+w_1 \; \cdots \; w_p 
+\end{bmatrix} \; and \; T = XW \\
 \\
 T \; is \; a \; desired \; transformed \; matrix
 $$
