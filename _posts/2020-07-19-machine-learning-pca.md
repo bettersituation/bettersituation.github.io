@@ -16,7 +16,7 @@ PCA 를 이론적으로 알기 위해서는 SVD 를 알아야 하고, SVD 를 �
 
 
 PCA 를 이해하는 데에 필요한 Theorem 은 SVD (Singular Value Decomposition) 이다.  
-SVD 에 대한 내용 및 증명은 이 포스트를 보자
+[SVD 에 대한 내용 및 증명은 이 포스트를 보자]({% post_url 2020-07-28-machine-learning-svd %})
 
 <br>
 
