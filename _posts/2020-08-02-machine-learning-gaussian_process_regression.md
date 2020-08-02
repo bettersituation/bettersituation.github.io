@@ -19,8 +19,8 @@ Univariate Gaussian Distribution 은 평균과 분산의 두 개 파라메터로
 반면 Multivariate Gaussian Distribution 은 n 차원 벡터라고 가정하면  
 각 차원의 평균과 각 차원 간의 Covariance 가 필요하므로 n + n*n 개의 항이 필요하다.  
 
-이 때 부분 벡터로 구성된 conditional distribution 도 정규분포이고 아래 성질을 충족한다.  
-아래는 그 증명이다.  
+이 때 부분 벡터로 구성된 conditional distribution 도 정규분포이고 아래는 그 증명이다.  
+
 $$
 \begin{bmatrix} x \\ y \end{bmatrix} \sim N(\begin{bmatrix} u_x \\ u_y \end{bmatrix}, \Sigma)
 \; where \; x \in R^{r \times 1}, \; y \in R^{m \times 1} \; and 
